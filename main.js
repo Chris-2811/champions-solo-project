@@ -2,14 +2,7 @@ import { initializeApp } from './node_modules/firebase/app';
 import { database, ref, set, push } from './node_modules/firebase/database';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCMFiXVKyvkCer_I5_hOecYTkXpwePHwEQ',
-  authDomain: 'we-are-the-champions-36b9d.firebaseapp.com',
-  databaseURL:
-    'https://we-are-the-champions-36b9d-default-rtdb.europe-west1.firebasedatabase.app',
-  projectId: 'we-are-the-champions-36b9d',
-  storageBucket: 'we-are-the-champions-36b9d.appspot.com',
-  messagingSenderId: '144627474015',
-  appId: '1:144627474015:web:1b5d9894bd4c68d24285ea',
+  // here is my project information
 };
 
 const app = initializeApp(firebaseConfig);
